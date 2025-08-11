@@ -1,0 +1,40 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/gruvbox_dark.toml"
+]
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "FiraCode Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+style = "BoldItalic"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 2
+
+[terminal]
+
+[terminal.shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/usr/bin/zsh"
